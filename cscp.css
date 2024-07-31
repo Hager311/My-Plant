@@ -12,6 +12,7 @@ ul {
     padding-left: 25px; 
     margin: auto;
     float: right;
+    cursor: pointer;
 }
 li{
     display: inline;
