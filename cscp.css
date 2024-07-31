@@ -84,7 +84,6 @@ nav {
     color: #2C5242;
     font: 30px serif;
 }
-
 .Typesc {
   float: left;
   width: 20%;
@@ -98,7 +97,6 @@ nav {
   margin: 0px 30px;
   animation-name: XXty;
   animation-duration: 5s;
-
 }
 @keyframes XXty {
  0% {  margin: 0px -300px; }
@@ -118,26 +116,22 @@ button{
     color: rgb(8, 75, 53);
 }
 
-.box {
-    visibility: hidden;
-    display: flex;
+.boxs, .boxw, .boxf, .boxt {
+    display: none;
     background: rgb(206, 218, 208);
     width: 0px;
     height: 0px;
-    display: flex;
-    -webkit-transition: all .3s ease-in-out;
-      -moz-transition: all .3s ease-in-out;
-      -o-transition: all .3s ease-in-out;
-      transition: all .3s ease-in-out;
+    margin-top: 360px;
+    margin-bottom: 0px;
 }
   
-.open-boxt {
+.open-boxs, .open-boxw, .open-boxf, .open-boxt {
     visibility: visible;
     width: 95%;
     height: 300px;
-    margin-top: 360px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    margin-bottom: -300px;
     border-radius: 30px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -145,10 +139,14 @@ button{
     transition: all .3s ease-in-out;
     display: flex;
 }
-.openBoxImg{
+.openBoxImgs, .openBoxImgw, .openBoxImgf, .openBoxImgt{
     float: left;
 }
-.openBoxText p{
+.openBoxImgs img, .openBoxImgw img, .openBoxImgf img, .openBoxImgt img{
+    width: 230px;
+    height: 230px; 
+}
+.openBoxTexts p, .openBoxTextw p, .openBoxTextf p, .openBoxTextt p{
     font: serif;
     font-size: 25px;
     color: #2C5242;
