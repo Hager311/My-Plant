@@ -1,0 +1,160 @@
+header img{
+    width: 95px;
+    margin-left: -15px; 
+}
+header {
+    float:left;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+ul {
+    list-style-type:none;
+    padding-left: 25px; 
+    margin: auto;
+    float: right;
+}
+li{
+    display: inline;
+    float:inline-start;
+}
+a{
+    color:rgb(3, 45, 33);
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    padding: 35px 8px;
+}
+a:active {
+    color: blue;
+}
+li :hover {
+    color: #e5e8dc;
+    background-color:rgb(3, 45, 33);
+}
+nav {
+    position: sticky;
+    z-index: 2;
+    top:0;
+    background-color: #e5e8dc;
+    overflow: hidden;
+    text-align: center;
+}
+/* End Nav */
+/* Main Content */
+.Intro{
+    font: 50px serif;
+    color: #2C5242;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.IntroImg img{ 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -100px;
+    width: 300px;
+    transform: rotate(355deg);
+}
+.Discr{
+    font: 45px serif;
+    color: #2C5242;
+    text-align: center;
+    position:relative;
+}
+.Discr span{
+    color: #fff;
+}
+.WebDisc{
+    background-color: #2C5242;
+    color: #E2E4DB;
+    font: 25px serif;
+    border-radius: 40px;
+    margin: 0px 100px ;
+    padding: 10px 30px;
+    animation-name: fade-in;
+    animation-duration: 7s;
+}
+@keyframes fade-in{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/* Types */
+.TypesPP{
+    margin-left: 5px;
+    color: #2C5242;
+    font: 30px serif;
+}
+
+.Typesc {
+  float: left;
+  width: 20%;
+  height: 300px; 
+  text-align: center;
+  border-right: 1px solid #000 !important;
+  border-left: 1px solid #000 !important;
+  border-color: aliceblue !important;
+  background-color: rgb(206, 218, 208);
+  border-radius: 40px;
+  margin: 0px 30px;
+  animation-name: XXty;
+  animation-duration: 5s;
+
+}
+@keyframes XXty {
+ 0% {  margin: 0px -300px; }
+ 100% {  margin: 0px 30px; }
+}
+button{
+    background-color: #2c524200;
+    border: none;
+}
+.Typesc img{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+.Typesc figcaption{
+    font: 40px serif;
+    color: rgb(8, 75, 53);
+}
+
+.box {
+    visibility: hidden;
+    display: flex;
+    background: rgb(206, 218, 208);
+    width: 0px;
+    height: 0px;
+    display: flex;
+    -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+}
+  
+.open-boxt {
+    visibility: visible;
+    width: 95%;
+    height: 300px;
+    margin-top: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    display: flex;
+}
+.openBoxImg{
+    float: left;
+}
+.openBoxText p{
+    font: serif;
+    font-size: 25px;
+    color: #2C5242;
+    padding-left: 20px;
+    padding-right:40px ;
+    margin-top: 65px;
+    float: left;
+    line-height: 1.3;
+}
